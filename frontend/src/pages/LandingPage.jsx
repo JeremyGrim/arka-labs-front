@@ -81,11 +81,11 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Problem/Solution - WHITE */}
-      <section className="py-24 bg-white">
+      {/* Problem/Solution - ANTHRACITE BG + WHITE CONTAINERS */}
+      <section className="py-24 bg-[#2a2a2a]">
         <div className="container mx-auto px-6 lg:px-20">
-          <div className="grid md:grid-cols-2 gap-16">
-            <div className="animate-fadeIn">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="animate-fadeIn p-10 bg-white rounded-sm">
               <div className="inline-block mb-6 px-3 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded">
                 LE PROBLÈME
               </div>
@@ -110,26 +110,26 @@ const LandingPage = () => {
               </ul>
             </div>
 
-            <div className="animate-fadeIn" style={{animationDelay: '0.2s'}}>
-              <div className="inline-block mb-6 px-3 py-1 bg-[#cb0f44]/10 border border-[#cb0f44]/30 text-[#cb0f44] text-xs font-medium rounded">
+            <div className="animate-fadeIn p-10 bg-white rounded-sm" style={{animationDelay: '0.2s'}}>
+              <div className="inline-block mb-6 px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-600 text-xs font-medium rounded">
                 LA SOLUTION
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">ARKA : Constitution + Équipe d'agents</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
-                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
                   <p className="text-gray-700">Une équipe d'agents orchestrée avec règles explicites et gates de validation</p>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
-                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
                   <p className="text-gray-700">Traçabilité complète : journal unifié, evidence packs, décisions documentées</p>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
-                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
                   <p className="text-gray-700">Local-first : vos données restent chez vous, souveraineté garantie</p>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
-                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
+                  <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
                   <p className="text-gray-700">Core Guardian : optimisation nocturne automatique de l'architecture</p>
                 </li>
               </ul>
