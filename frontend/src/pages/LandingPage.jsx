@@ -87,53 +87,53 @@ const LandingPage = () => {
         <div className="container mx-auto px-6 lg:px-20">
           <div className="grid md:grid-cols-2 gap-16">
             {/* Problem */}
-            <div>
-              <div className="inline-block mb-6 px-3 py-1 bg-red-500/10 border border-red-500/30 text-red-400 text-xs font-medium">
+            <div className="animate-fadeIn">
+              <div className="inline-block mb-6 px-3 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded">
                 LE PROBLÈME
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Les LLMs seuls ne suffisent pas</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Les LLMs seuls ne suffisent pas</h2>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Un seul LLM + 1000 lignes de prompt = dérive créative et hallucinations</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Un seul LLM + 1000 lignes de prompt = dérive créative et hallucinations</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Impossible à auditer, impossible à coordonner en équipe</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Impossible à auditer, impossible à coordonner en équipe</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Manque de confiance : sans règles ni traces, pas de capitalisation</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Manque de confiance : sans règles ni traces, pas de capitalisation</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Outils dispersés : documents et consignes ne travaillent pas ensemble</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Outils dispersés : documents et consignes ne travaillent pas ensemble</p>
                 </li>
               </ul>
             </div>
 
             {/* Solution */}
-            <div>
-              <div className="inline-block mb-6 px-3 py-1 bg-[#cb0f44]/10 border border-[#cb0f44]/30 text-[#cb0f44] text-xs font-medium">
+            <div className="animate-fadeIn" style={{animationDelay: '0.2s'}}>
+              <div className="inline-block mb-6 px-3 py-1 bg-[#cb0f44]/10 border border-[#cb0f44]/30 text-[#cb0f44] text-xs font-medium rounded">
                 LA SOLUTION
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">ARKA : Constitution + Équipe d'agents</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">ARKA : Constitution + Équipe d'agents</h2>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Une équipe d'agents orchestrée avec règles explicites et gates de validation</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Une équipe d'agents orchestrée avec règles explicites et gates de validation</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Traçabilité complète : journal unifié, evidence packs, décisions documentées</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Traçabilité complète : journal unifié, evidence packs, décisions documentées</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Local-first : vos données restent chez vous, souveraineté garantie</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Local-first : vos données restent chez vous, souveraineté garantie</p>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0" />
-                  <p className="text-gray-300">Core Guardian : optimisation nocturne automatique de l'architecture</p>
+                <li className="flex items-start gap-3 group">
+                  <div className="w-2 h-2 bg-[#cb0f44] rounded-full mt-2 flex-shrink-0 group-hover:scale-125 transition-transform" />
+                  <p className="text-gray-700">Core Guardian : optimisation nocturne automatique de l'architecture</p>
                 </li>
               </ul>
             </div>
@@ -142,7 +142,7 @@ const LandingPage = () => {
       </section>
 
       {/* Key Features */}
-      <section className="py-24">
+      <section className="py-24 bg-[#2a2a2a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Fonctionnalités clés</h2>
