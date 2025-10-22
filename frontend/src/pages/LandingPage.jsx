@@ -152,8 +152,8 @@ const LandingPage = () => {
       <section className="py-24 bg-[#1a1a1a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Fonctionnalités clés</h2>
-            <p className="text-xl text-gray-700">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Fonctionnalités clés</h2>
+            <p className="text-xl text-gray-300">
               ARKA révolutionne l'orchestration IA avec des innovations uniques
             </p>
           </div>
@@ -162,7 +162,7 @@ const LandingPage = () => {
             {features.map((feature, idx) => {
               const Icon = iconMap[feature.icon];
               return (
-                <div key={feature.id} className="group p-8 bg-gray-50 border-2 border-gray-200 rounded hover:border-[#cb0f44]/70 transition-all hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
+                <div key={feature.id} className="group p-8 bg-white border-2 border-gray-200 rounded hover:border-[#cb0f44]/70 transition-all hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
                   <div className="w-12 h-12 bg-[#cb0f44]/10 flex items-center justify-center mb-6 rounded group-hover:bg-[#cb0f44]/20 group-hover:scale-110 transition-all">
                     <Icon className="text-[#cb0f44]" size={24} />
                   </div>
@@ -176,7 +176,7 @@ const LandingPage = () => {
           <div className="text-center mt-12">
             <Link
               to="/features"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 border-2 border-gray-900 text-white font-medium rounded hover:bg-gray-800 hover:scale-105 transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 border-2 border-white font-medium rounded hover:bg-gray-100 hover:scale-105 transition-all"
             >
               Voir toutes les fonctionnalités
               <ChevronRight size={20} />
@@ -185,8 +185,65 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Experts Preview - ANTHRACITE BG + WHITE CONTAINERS */}
-      <section className="py-24 bg-[#2a2a2a]">
+      {/* Concept Presentation - WHITE BG */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-6 lg:px-20">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16 animate-fadeIn">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+                Comment fonctionne ARKA ?
+              </h2>
+              <p className="text-xl text-gray-700">
+                Une approche unique qui transforme le chaos IA en équipe structurée
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 mb-16">
+              <div className="text-center animate-fadeIn" style={{animationDelay: '0.1s'}}>
+                <div className="w-20 h-20 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-4xl font-bold text-[#cb0f44]">1</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Constitution as Code</h3>
+                <p className="text-gray-600">
+                  Des règles versionnées qui gouvernent chaque agent. Une seule source de vérité, zéro dérive.
+                </p>
+              </div>
+
+              <div className="text-center animate-fadeIn" style={{animationDelay: '0.2s'}}>
+                <div className="w-20 h-20 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-4xl font-bold text-[#cb0f44]">2</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Orchestration PMO</h3>
+                <p className="text-gray-600">
+                  Le PMO coordonne jusqu'à 8 agents simultanément selon vos besoins métier.
+                </p>
+              </div>
+
+              <div className="text-center animate-fadeIn" style={{animationDelay: '0.3s'}}>
+                <div className="w-20 h-20 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-4xl font-bold text-[#cb0f44]">3</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Evidence-Based</h3>
+                <p className="text-gray-600">
+                  Chaque décision génère un evidence pack : traçabilité 100%, audits simplifiés.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-[#cb0f44]/5 to-emerald-500/5 p-10 rounded-sm border-l-4 border-[#cb0f44] animate-fadeIn" style={{animationDelay: '0.4s'}}>
+              <p className="text-2xl font-semibold text-gray-900 mb-4">
+                « Pas d'improvisation. Pas d'IA hors de contrôle. »
+              </p>
+              <p className="text-gray-700 text-lg">
+                ARKA impose une discipline collective aux LLMs via des gates de validation, des rôles explicites et une architecture qui maintient l'ordre - même quand vous dormez grâce au Core Guardian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Experts Preview - ASH GREY BG + WHITE CONTAINERS */}
+      <section className="py-24 bg-[#1a1a1a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">24 Experts à votre service</h2>
