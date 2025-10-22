@@ -27,9 +27,9 @@ const LandingPage = () => {
           <img
             src="https://customer-assets.emergentagent.com/job_05361509-02f2-4a4e-9f01-a81e730fa397/artifacts/2z5gyy3v_futuristic-3d-5120x3413-13107.jpg"
             alt="Tech Background"
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-25"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/70" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/75 to-black/80" />
         </div>
 
         <div className="container mx-auto px-6 lg:px-20 relative z-10">
