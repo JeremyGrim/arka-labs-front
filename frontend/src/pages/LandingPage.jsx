@@ -34,48 +34,48 @@ const LandingPage = () => {
         </div>
 
         <div className="container mx-auto px-6 lg:px-20 relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-block mb-6 px-4 py-2 bg-[#cb0f44]/10 border border-[#cb0f44]/30">
+          <div className="max-w-4xl animate-fadeIn">
+            <div className="inline-block mb-6 px-4 py-2 bg-[#cb0f44]/20 border border-[#cb0f44]/40 rounded backdrop-blur-sm">
               <span className="text-[#cb0f44] text-sm font-medium">Orchestrateur d'Équipes IA</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
               Transformer des LLMs en
               <span className="block text-[#cb0f44]"> équipes coordonnées</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl leading-relaxed">
               ARKA orchestre 24 agents spécialisés pour transformer vos projets en succès auditables. Local-first, gouverné et traçable.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/beta"
-                className="group px-8 py-4 bg-[#cb0f44] text-white font-medium flex items-center justify-center gap-2 transition-all hover:bg-[#cb0f44]/90 hover:scale-105"
+                className="group px-8 py-4 bg-[#cb0f44] text-white font-medium flex items-center justify-center gap-2 rounded transition-all hover:bg-[#a00c37] hover:scale-105 hover:shadow-lg hover:shadow-[#cb0f44]/30"
               >
                 Rejoindre la bêta
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/experts"
-                className="px-8 py-4 bg-white/5 text-white font-medium border border-white/20 flex items-center justify-center gap-2 transition-all hover:bg-white/10"
+                className="px-8 py-4 bg-white/10 text-white font-medium border border-white/30 rounded backdrop-blur-sm flex items-center justify-center gap-2 transition-all hover:bg-white/20 hover:border-white/50"
               >
                 Découvrir les experts
               </Link>
             </div>
 
             <div className="mt-16 grid grid-cols-3 gap-8">
-              <div>
+              <div className="animate-slideIn" style={{animationDelay: '0.2s'}}>
                 <div className="text-4xl font-bold text-[#cb0f44] mb-2">24</div>
-                <div className="text-gray-400 text-sm">Agents experts</div>
+                <div className="text-gray-300 text-sm">Agents experts</div>
               </div>
-              <div>
+              <div className="animate-slideIn" style={{animationDelay: '0.4s'}}>
                 <div className="text-4xl font-bold text-[#cb0f44] mb-2">16</div>
-                <div className="text-gray-400 text-sm">Workflows métier</div>
+                <div className="text-gray-300 text-sm">Workflows métier</div>
               </div>
-              <div>
+              <div className="animate-slideIn" style={{animationDelay: '0.6s'}}>
                 <div className="text-4xl font-bold text-[#cb0f44] mb-2">98%</div>
-                <div className="text-gray-400 text-sm">Gain de temps</div>
+                <div className="text-gray-300 text-sm">Gain de temps</div>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const LandingPage = () => {
       </section>
 
       {/* Problem/Solution */}
-      <section className="py-24 bg-[#0a0a0a]">
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="grid md:grid-cols-2 gap-16">
             {/* Problem */}
