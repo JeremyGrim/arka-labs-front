@@ -91,11 +91,11 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Problem/Solution - ANTHRACITE BG + WHITE CONTAINERS */}
-      <section className="py-24 bg-[#2a2a2a]">
+      {/* Problem/Solution - WHITE BG + GRAY CONTAINERS */}
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="animate-fadeIn p-10 bg-white rounded-sm">
+            <div className="animate-fadeIn p-10 bg-gray-100 rounded-sm">
               <div className="inline-block mb-6 px-3 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded">
                 LE PROBLÈME
               </div>
@@ -120,7 +120,7 @@ const LandingPage = () => {
               </ul>
             </div>
 
-            <div className="animate-fadeIn p-10 bg-white rounded-sm" style={{animationDelay: '0.2s'}}>
+            <div className="animate-fadeIn p-10 bg-gray-100 rounded-sm" style={{animationDelay: '0.2s'}}>
               <div className="inline-block mb-6 px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-600 text-xs font-medium rounded">
                 LA SOLUTION
               </div>
@@ -148,8 +148,8 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Key Features - WHITE BG + GRAY CONTAINERS */}
-      <section className="py-24 bg-white">
+      {/* Key Features - ASH GREY BG + WHITE CONTAINERS */}
+      <section className="py-24 bg-[#1a1a1a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Fonctionnalités clés</h2>
