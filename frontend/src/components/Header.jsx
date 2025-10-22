@@ -52,7 +52,7 @@ const Header = () => {
             ))}
             <Link
               to="/beta"
-              className="px-6 py-3 bg-[#cb0f44] text-white font-medium transition-all hover:bg-[#cb0f44]/90 hover:scale-105"
+              className="px-6 py-3 bg-[#cb0f44] text-white font-medium rounded transition-all hover:bg-[#a00c37] hover:scale-105 hover:shadow-lg hover:shadow-[#cb0f44]/30"
             >
               Rejoindre la Bêta
             </Link>
