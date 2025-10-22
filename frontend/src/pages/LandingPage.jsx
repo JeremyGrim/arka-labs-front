@@ -138,12 +138,12 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Key Features - ANTHRACITE */}
-      <section className="py-24 bg-[#2a2a2a]">
+      {/* Key Features - WHITE BG + GRAY CONTAINERS */}
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Fonctionnalités clés</h2>
-            <p className="text-xl text-gray-300">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Fonctionnalités clés</h2>
+            <p className="text-xl text-gray-700">
               ARKA révolutionne l'orchestration IA avec des innovations uniques
             </p>
           </div>
@@ -152,12 +152,12 @@ const LandingPage = () => {
             {features.map((feature, idx) => {
               const Icon = iconMap[feature.icon];
               return (
-                <div key={feature.id} className="group p-8 bg-[#1a1a1a] border-2 border-gray-700 rounded hover:border-[#cb0f44]/70 transition-all hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
-                  <div className="w-12 h-12 bg-[#cb0f44]/20 flex items-center justify-center mb-6 rounded group-hover:bg-[#cb0f44]/30 group-hover:scale-110 transition-all">
+                <div key={feature.id} className="group p-8 bg-gray-50 border-2 border-gray-200 rounded hover:border-[#cb0f44]/70 transition-all hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
+                  <div className="w-12 h-12 bg-[#cb0f44]/10 flex items-center justify-center mb-6 rounded group-hover:bg-[#cb0f44]/20 group-hover:scale-110 transition-all">
                     <Icon className="text-[#cb0f44]" size={24} />
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-white group-hover:text-[#cb0f44] transition-colors">{feature.title}</h3>
-                  <p className="text-gray-300 leading-relaxed">{feature.description}</p>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#cb0f44] transition-colors">{feature.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                 </div>
               );
             })}
@@ -166,7 +166,7 @@ const LandingPage = () => {
           <div className="text-center mt-12">
             <Link
               to="/features"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 border-2 border-white/30 text-white font-medium rounded hover:bg-white/20 hover:scale-105 transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 border-2 border-gray-900 text-white font-medium rounded hover:bg-gray-800 hover:scale-105 transition-all"
             >
               Voir toutes les fonctionnalités
               <ChevronRight size={20} />
