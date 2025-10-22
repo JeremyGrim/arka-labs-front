@@ -86,7 +86,7 @@ const Header = () => {
             ))}
             <Link
               to="/beta"
-              className="block mt-4 px-6 py-3 bg-[#cb0f44] text-white text-center font-medium transition-all hover:bg-[#cb0f44]/90"
+              className="block mt-4 px-6 py-3 bg-[#cb0f44] text-white text-center font-medium rounded transition-all hover:bg-[#a00c37]"
               onClick={() => setIsMenuOpen(false)}
             >
               Rejoindre la Bêta
