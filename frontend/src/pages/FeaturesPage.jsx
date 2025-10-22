@@ -6,141 +6,141 @@ import Footer from '../components/Footer';
 const FeaturesPage = () => {
   const workflows = [
     {
-      category: "AUDIT (6 workflows)",
+      category: "AUDIT • 6 parcours",
       items: [
-        { name: "AUDIT:FILES", desc: "Scan fichiers → constats → gate" },
-        { name: "AUDIT:RGPD", desc: "Évaluation RGPD/DPA complète" },
-        { name: "AUDIT:COMPLIANCE", desc: "Conformité normes (SOC2, ISO)" },
-        { name: "AUDIT:SECURITY", desc: "Audit sécurité applicatif" },
-        { name: "AUDIT:FEATURE", desc: "Analyse impacts/dépendances" },
-        { name: "AUDIT:ACCOUNTING", desc: "Contrôles comptables" }
-      ]
+        { name: "AUDIT:FILES", desc: "Analyse des fichiers → synthèse des constats → validation" },
+        { name: "AUDIT:RGPD", desc: "Évaluation RGPD / DPA complète et plan d'action" },
+        { name: "AUDIT:COMPLIANCE", desc: "Revue de conformité (SOC2, ISO, interne)" },
+        { name: "AUDIT:SECURITY", desc: "Audit de sécurité applicative et remédiations" },
+        { name: "AUDIT:FEATURE", desc: "Analyse d'impact fonctionnelle et technique" },
+        { name: "AUDIT:ACCOUNTING", desc: "Contrôles comptables et justification des écarts" },
+      ],
     },
     {
-      category: "DELIVERY (3 workflows)",
+      category: "DELIVERY • 3 parcours",
       items: [
-        { name: "DELIVERY:FEATURE", desc: "Feature → Epics → US → gate" },
-        { name: "DELIVERY:EPIC", desc: "Cadrage Epic → décomposition US" },
-        { name: "DELIVERY:US", desc: "Spécifier → Réaliser → Review → Gate → Publish" }
-      ]
+        { name: "DELIVERY:FEATURE", desc: "Du besoin à la fonctionnalité : cadrage → épics → US → validation" },
+        { name: "DELIVERY:EPIC", desc: "Cadrage d'epic → découpage → préparation backlog" },
+        { name: "DELIVERY:US", desc: "Spécification → réalisation → revue → validation → publication" },
+      ],
     },
     {
-      category: "OPS (3 workflows)",
+      category: "OPS • 3 parcours",
       items: [
-        { name: "OPS:BUGFIX", desc: "Qualif → fix → test → gate → release notes" },
-        { name: "OPS:SECURITY", desc: "Incident sécu → remédiation → gate" },
-        { name: "OPS:DATA_REPORT", desc: "Extract data → analyse → reporting" }
-      ]
+        { name: "OPS:BUGFIX", desc: "Qualification → correction → tests → validation → notes de version" },
+        { name: "OPS:SECURITY", desc: "Gestion d'incident sécurité → remédiation → vérification" },
+        { name: "OPS:DATA_REPORT", desc: "Extraction des données → analyse → restitution" },
+      ],
     },
     {
-      category: "DOC & MKT & PEOPLE (4 workflows)",
+      category: "DOC / MARKETING / RH • 4 parcours",
       items: [
-        { name: "DOC:ADR", desc: "Architecture Decision Record → review → gate" },
-        { name: "DOC:CONTENT", desc: "Brief → rédaction → gate → publish" },
-        { name: "MKT:CAMPAIGN", desc: "Research → plan → création → analytics" },
-        { name: "PEOPLE:HR_CHANGE", desc: "Diagnostic → roadmap → déploiement" }
-      ]
-    }
+        { name: "DOC:ADR", desc: "Rédaction d'Architecture Decision Record → revue → publication" },
+        { name: "DOC:CONTENT", desc: "Brief → production éditoriale → relecture → diffusion" },
+        { name: "MKT:CAMPAIGN", desc: "Recherche → plan de campagne → création → analyse des performances" },
+        { name: "PEOPLE:HR_CHANGE", desc: "Diagnostic → trajectoire de transformation → déploiement" },
+      ],
+    },
   ];
 
   const coreFeatures = [
     {
       icon: Network,
-      title: "Orchestration Multi-Niveaux",
-      description: "Inspiré de SAFe (Scaled Agile Framework), ARKA structure l'organisation en Programme/Plateaux. Le PMO peut gérer jusqu'à 8 agents par équipe avec 2 tâches simultanées en pilotage actif.",
+      title: "Orchestration multi-niveaux",
+      description: "Inspiré de SAFe, ARKA structure vos agents IA par programmes et plateaux. Le PMO pilote jusqu'à huit agents par équipe et deux missions actives sans perdre le fil.",
       benefits: [
-        "Pool de 8 agents max par équipe",
-        "Enchaînement dynamique des workflows",
-        "Adaptation au rythme des agents",
-        "Coordination inter-plateaux si nécessaire"
-      ]
+        "Jusqu'à 8 agents par équipe",
+        "Enchaînement fluide des workflows",
+        "Cadence adaptée à la charge réelle",
+        "Coordination inter-plateaux simplifiée",
+      ],
     },
     {
       icon: Shield,
       title: "Core Guardian",
-      description: "Système autonome qui passe chaque nuit pour compacter, optimiser et archiver les messages obsolètes. Met à jour les mémoires de contexte pour un onboarding agent rapide et efficace.",
+      description: "Un gardien autonome passe chaque nuit pour compacter, optimiser et archiver les échanges obsolètes. Les mémoires de contexte restent fraîches et les dérives sont neutralisées.",
       benefits: [
-        "Nettoyage automatique nocturne",
-        "Optimisation des mémoires de contexte",
-        "Détection de déviances architecturales",
-        "Compte rendu d'optimisation quotidien"
-      ]
+        "Nettoyage nocturne automatique",
+        "Mémoires de contexte toujours à jour",
+        "Détection des dérives architecturales",
+        "Rapport d'optimisation quotidien",
+      ],
     },
     {
       icon: FileText,
       title: "Constitution as Code",
-      description: "Au lieu de répéter les règles dans chaque prompt, ARKA utilise une constitution versionnée. Une modification de règle se propage automatiquement à tous les agents.",
+      description: "Les règles ne sont plus dupliquées dans des prompts : elles vivent dans une constitution versionnée. Un changement s'applique instantanément à tous les agents concernés.",
       benefits: [
         "Source de vérité unique",
-        "Zéro dérive des agents",
-        "Auditable via git history",
-        "22 briques • 96 action keys"
-      ]
+        "Aucune dérive de consigne",
+        "Audit possible via l'historique Git",
+        "22 briques • 96 actions pilotables",
+      ],
     },
     {
       icon: TrendingUp,
-      title: "Evidence-Based AI",
-      description: "Chaque action génère un evidence pack complet : messages, mémoires, tokens, latences, gates, et artifacts. Traçabilité complète pour audit SOC2/ISO27001/RGPD.",
+      title: "Traçabilité probante",
+      description: "Chaque action produit un dossier de preuves complet : messages, mémoires, jetons, latences, jalons et artefacts. Idéal pour SOC2, ISO27001 ou la conformité RGPD.",
       benefits: [
-        "Evidence pack pour chaque action",
-        "Export JSON/CSV/PDF",
-        "Chain of custody juridique",
-        "Rejouabilité complète"
-      ]
+        "Preuves générées à chaque étape",
+        "Export JSON, CSV ou PDF",
+        "Chaîne de responsabilité juridique",
+        "Rejeu de scénarios possible",
+      ],
     },
     {
       icon: Zap,
-      title: "Multi-Provider Agnostique",
-      description: "Bascule entre GPT-4, Claude, Gemini en 1 ligne. Lock-in zéro, résilience garantie avec fallback automatique, optimisation coûts avec routing intelligent.",
+      title: "Indépendance fournisseurs",
+      description: "Basculez entre GPT-4, Claude ou Gemini en une ligne. Pas de verrou propriétaire, résilience via fallback automatique et arbitrage de coût intelligent.",
       benefits: [
-        "Support GPT, Claude, Gemini",
-        "Fallback automatique",
-        "Optimisation coûts dynamique",
-        "Support OSS (Llama, Mistral)"
-      ]
+        "Compatibilité GPT, Claude, Gemini",
+        "Relais automatique en cas d'échec",
+        "Optimisation dynamique des coûts",
+        "Support des modèles open source",
+      ],
     },
     {
       icon: Database,
-      title: "Local-First & Souveraineté",
-      description: "Les données de travail restent chez vous (machine, réseau interne). Fonctionnement hors-ligne possible. Aucune fuite de données par défaut.",
+      title: "Architecture locale par défaut",
+      description: "Les données de travail restent chez vous : machine ou réseau interne. L'outil fonctionne hors ligne et n'exfiltre rien par défaut.",
       benefits: [
-        "Données locales par défaut",
-        "Mode hors-ligne disponible",
+        "Données stockées en local",
+        "Mode hors ligne opérationnel",
         "Souveraineté garantie",
-        "Sauvegarde simple (fichiers)"
-      ]
-    }
+        "Sauvegardes par simples fichiers",
+      ],
+    },
   ];
 
   const useCases = [
     {
       icon: CheckCircle,
-      title: "Audit RGPD en 2h",
-      before: "160h manuelles, 5% d'erreurs",
-      after: "2h avec ARKA, 0.5% d'erreurs",
-      roi: "98% de gain de temps, 40$ vs 8000$ de coûts"
+      title: "Audit RGPD en 2 h",
+      before: "Avant : 160 h de travail manuel, 5 % d'erreurs",
+      after: "Après ARKA : 2 h de pilotage, 0,5 % d'écarts",
+      roi: "98 % de temps économisé — 40 $ vs 8 000 $ de coûts",
     },
     {
       icon: Clock,
-      title: "Livraison Features",
-      before: "3 semaines de specs à release",
-      after: "1 semaine avec orchestration",
-      roi: "66% plus rapide, qualité constante"
+      title: "Livraison de fonctionnalités",
+      before: "Avant : 3 semaines entre les specs et la mise en prod",
+      after: "Après ARKA : 1 semaine de bout en bout",
+      roi: "Cycle 66 % plus rapide, qualité maintenue",
     },
     {
       icon: Users,
-      title: "Campagne Marketing",
-      before: "10 jours de brief à publication",
-      after: "3 jours avec workflow MKT",
-      roi: "70% de gain, cohérence garantie"
+      title: "Campagne marketing",
+      before: "Avant : 10 jours du brief à la publication",
+      after: "Après ARKA : 3 jours avec le workflow marketing",
+      roi: "70 % de gain de temps, cohérence garantie",
     },
     {
       icon: Lock,
-      title: "Sécurité & Compliance",
-      before: "Audit manuel, traces partielles",
-      after: "Traçabilité 100%, evidence packs",
-      roi: "Conformité SOC2/ISO automatique"
-    }
+      title: "Sécurité & conformité",
+      before: "Avant : audits manuels et traces partielles",
+      after: "Après ARKA : traçabilité totale et dossiers de preuves",
+      roi: "Conformité SOC2 / ISO automatisée",
+    },
   ];
 
   return (
@@ -192,9 +192,9 @@ const FeaturesPage = () => {
       <section className="py-24 bg-[#0a0a0a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="max-w-3xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">16 Workflows Métier Prêts à l'Emploi</h2>
+            <h2 className="text-3xl font-bold mb-4">16 parcours métiers prêts à l'emploi</h2>
             <p className="text-gray-400">
-              Des chaînes complètes pour audit, delivery, ops, documentation, marketing et RH.
+              Des chaînes complètes pour l'audit, la delivery, les opérations, la documentation, le marketing et les équipes RH.
             </p>
           </div>
 

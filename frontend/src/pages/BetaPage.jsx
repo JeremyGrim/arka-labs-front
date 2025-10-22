@@ -33,11 +33,11 @@ const BetaPage = () => {
 
   const benefits = [
     "Accès anticipé à ARKA avant le lancement public",
-    "Support dédié de l'équipe ARKA",
-    "Influence directe sur le développement du produit",
-    "Formation et onboarding personnalisés",
-    "Tarification préférentielle pour les early adopters",
-    "Accès exclusif à la communauté bêta"
+    "Support dédié par l'équipe ARKA",
+    "Influence directe sur la feuille de route produit",
+    "Formation et accompagnement personnalisés",
+    "Tarifs préférentiels réservés aux premiers utilisateurs",
+    "Accès exclusif à la communauté bêta",
   ];
 
   if (submitted) {
@@ -114,7 +114,7 @@ const BetaPage = () => {
       <section className="py-24">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8">Demander un Accès Bêta</h2>
+            <h2 className="text-3xl font-bold mb-8">Demander un accès bêta</h2>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">

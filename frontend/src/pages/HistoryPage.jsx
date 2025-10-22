@@ -23,7 +23,7 @@ const HistoryPage = () => {
       phase: "La Naissance",
       icon: Rocket,
       title: "ARKA : Un Cadre de Gouvernance",
-      description: "Pas comme un assistant. Pas comme une surcouche. Mais comme un cadre de gouvernance local, où plusieurs LLMs peuvent enfin produire comme une équipe projet réelle. Une constitution exécutable qui impose règles, rôles, gates et responsabilités.",
+      description: "Pas comme un assistant. Pas comme une surcouche. Mais comme un cadre de gouvernance local, où plusieurs LLMs peuvent enfin produire comme une équipe projet réelle. Une constitution exécutable qui impose règles, rôles, jalons de validation et responsabilités.", 
       highlight: "Le produit, c'était la méthode"
     },
     {
@@ -37,10 +37,10 @@ const HistoryPage = () => {
 
   const principles = [
     "Une application locale qui orchestre plusieurs LLMs via des terminaux spécialisés",
-    "Une constitution exécutable qui impose règles, rôles, slices, gates, responsabilités",
+    "Une constitution exécutable qui impose règles, rôles, jalons et responsabilités",
     "Un journal unifié qui trace chaque input, décision, livrable, preuve",
     "Une source unique de vérité dans le projet : ARKA_META",
-    "Une anti-improvisation radicale : pas de livrable sans gate validé"
+    "Une anti-improvisation radicale : aucun livrable sans jalon validé"
   ];
 
   return (

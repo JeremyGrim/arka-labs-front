@@ -196,9 +196,9 @@ export const experts = [
     name: "AGP",
     category: "gouvernance",
     baseline: "Les règles qui protègent la valeur",
-    description: "Cadre les décisions; ouvre/ferme les gates; publie les ADR.",
+    description: "Cadre les décisions, ouvre et ferme les jalons, publie les ADR.",
     strengths: ["Gouvernance", "Évaluation risques", "Validation"],
-    deliverables: ["ADR", "Décisions publiées", "Comptes-rendus gate"],
+    deliverables: ["ADR", "Décisions publiées", "Comptes rendus de jalon"],
     metrics: ["Décisions traçables", "Écarts évités"]
   },
   {
@@ -206,7 +206,7 @@ export const experts = [
     name: "PMO",
     category: "gouvernance",
     baseline: "Le flux, du cadrage à la livraison",
-    description: "Orchestration workflow, coordination et reporting.",
+    description: "Orchestration des workflows, coordination et reporting.",
     strengths: ["Backlog", "Planification", "Coordination", "Visibilité"],
     deliverables: ["Plans de travail", "Délégations", "Rapports"],
     metrics: ["Prévisibilité", "Lead time", "Satisfaction"]
@@ -247,38 +247,38 @@ export const features = [
   {
     id: 1,
     icon: "Network",
-    title: "Orchestration Multi-Agents",
-    description: "24 agents spécialisés collaborent intelligemment selon vos besoins. Le PMO coordonne jusqu'à 8 agents par équipe."
+    title: "Orchestration multi-agents",
+    description: "24 agents spécialisés coopèrent selon vos priorités. Le PMO pilote jusqu'à huit agents par équipe."
   },
   {
     id: 2,
     icon: "Shield",
     title: "Core Guardian",
-    description: "Système autonome qui optimise la messagerie interne, archive l'obsolète et maintient l'ordre architectural."
+    description: "Un gardien autonome qui optimise la messagerie interne, archive l'obsolète et maintient l'architecture sous contrôle."
   },
   {
     id: 3,
     icon: "FileText",
     title: "Constitution as Code",
-    description: "Règles et gouvernance explicites. Zéro dérive, source de vérité unique, auditable via git."
+    description: "Des règles explicites, versionnées et auditées. Une seule source de vérité pour toute l'équipe."
   },
   {
     id: 4,
     icon: "TrendingUp",
-    title: "Evidence-Based AI",
-    description: "Traçabilité complète : messages, décisions, tokens, latences. Chaque action génère un evidence pack."
+    title: "Traçabilité intégrale",
+    description: "Chaque action produit un dossier de preuves : messages, décisions, jetons, latences et artefacts."
   },
   {
     id: 5,
     icon: "Zap",
-    title: "Workflows Métier",
-    description: "16 chaînes prêtes à l'emploi : Audit RGPD, Delivery US, OPS Bugfix, Marketing Campaign et plus."
+    title: "Parcours métiers",
+    description: "16 chaînes prêtes à l'emploi : audit RGPD, delivery, correction d'incidents, campagnes marketing et plus."
   },
   {
     id: 6,
     icon: "Database",
-    title: "Local-First",
-    description: "Vos données restent chez vous. Fonctionne hors-ligne. Souveraineté garantie."
+    title: "Architecture locale",
+    description: "Vos données restent chez vous, même hors ligne. La souveraineté est garantie par conception."
   }
 ];
 
@@ -286,8 +286,8 @@ export const benefits = [
   {
     id: 1,
     stat: "98%",
-    label: "Réduction du temps",
-    description: "Passez de 160h à 2h pour un audit RGPD complet"
+    label: "Temps économisé",
+    description: "De 160 h à 2 h pour un audit RGPD complet"
   },
   {
     id: 2,
@@ -304,8 +304,8 @@ export const benefits = [
   {
     id: 4,
     stat: "16",
-    label: "Workflows métier",
-    description: "Chaînes prêtes pour audit, delivery, ops, marketing"
+    label: "Parcours métiers",
+    description: "Plans prêts à l'emploi pour audit, delivery, ops et marketing"
   }
 ];
 
