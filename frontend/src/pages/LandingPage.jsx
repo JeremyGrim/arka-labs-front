@@ -218,22 +218,22 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Benefits - ANTHRACITE */}
-      <section className="py-24 bg-[#2a2a2a]">
+      {/* Benefits - WHITE BG + GRAY CONTAINERS */}
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Des résultats mesurables</h2>
-            <p className="text-xl text-gray-300">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Des résultats mesurables</h2>
+            <p className="text-xl text-gray-700">
               ARKA transforme radicalement votre productivité
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, idx) => (
-              <div key={benefit.id} className="text-center p-8 bg-[#1a1a1a] rounded border-2 border-gray-700 hover:border-[#cb0f44]/70 transition-all hover:scale-105 animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
+              <div key={benefit.id} className="text-center p-8 bg-gray-50 rounded border-2 border-gray-200 hover:border-[#cb0f44]/70 transition-all hover:scale-105 animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
                 <div className="text-6xl font-bold text-[#cb0f44] mb-4">{benefit.stat}</div>
-                <div className="text-xl font-semibold mb-2 text-white">{benefit.label}</div>
-                <p className="text-gray-300">{benefit.description}</p>
+                <div className="text-xl font-semibold mb-2 text-gray-900">{benefit.label}</div>
+                <p className="text-gray-600">{benefit.description}</p>
               </div>
             ))}
           </div>
