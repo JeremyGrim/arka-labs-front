@@ -175,19 +175,19 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Experts Preview - WHITE */}
-      <section className="py-24 bg-white">
+      {/* Experts Preview - ANTHRACITE BG + WHITE CONTAINERS */}
+      <section className="py-24 bg-[#2a2a2a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">24 Experts à votre service</h2>
-            <p className="text-xl text-gray-700">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">24 Experts à votre service</h2>
+            <p className="text-xl text-gray-300">
               Des spécialistes prêts à collaborer sur tous vos projets
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {featuredExperts.map((expert, idx) => (
-              <div key={expert.id} className="p-6 bg-gray-50 border-2 border-gray-200 rounded hover:border-[#cb0f44]/70 transition-all group hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
+              <div key={expert.id} className="p-6 bg-white border-2 border-gray-200 rounded hover:border-[#cb0f44]/70 transition-all group hover:scale-105 hover:shadow-xl animate-fadeIn" style={{animationDelay: `${idx * 0.1}s`}}>
                 <div className="mb-4">
                   <span className="text-xs text-gray-500 uppercase tracking-wider">
                     {categories.find(c => c.id === expert.category)?.label}
@@ -197,7 +197,7 @@ const LandingPage = () => {
                 <p className="text-sm text-gray-600 mb-4">{expert.baseline}</p>
                 <div className="flex flex-wrap gap-2">
                   {expert.strengths.slice(0, 2).map((strength, idx) => (
-                    <span key={idx} className="text-xs px-2 py-1 bg-gray-200 text-gray-700 rounded">
+                    <span key={idx} className="text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded">
                       {strength}
                     </span>
                   ))}
