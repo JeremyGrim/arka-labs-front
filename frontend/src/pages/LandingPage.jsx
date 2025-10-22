@@ -307,23 +307,48 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* CTA Section - ANTHRACITE BG + WHITE CONTAINER */}
-      <section className="py-24 bg-[#2a2a2a]">
-        <div className="container mx-auto px-6 lg:px-20">
-          <div className="max-w-4xl mx-auto text-center p-12 bg-white rounded-sm animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-              Prêt à transformer votre façon de travailler ?
+      {/* CTA Section - HERO STYLE */}
+      <section className="relative py-32 bg-gradient-to-br from-gray-900 via-[#1a1a1a] to-black overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://customer-assets.emergentagent.com/job_05361509-02f2-4a4e-9f01-a81e730fa397/artifacts/2z5gyy3v_futuristic-3d-5120x3413-13107.jpg"
+            alt="Tech Background"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-black/90" />
+        </div>
+        
+        <div className="container mx-auto px-6 lg:px-20 relative z-10">
+          <div className="max-w-4xl mx-auto text-center animate-fadeIn">
+            <div className="inline-block mb-6 px-4 py-2 bg-[#cb0f44]/20 border border-[#cb0f44]/40 rounded backdrop-blur-sm">
+              <span className="text-[#cb0f44] text-sm font-medium">Programme Bêta Ouvert</span>
+            </div>
+            
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
+              Prêt à transformer votre<br />façon de travailler ?
             </h2>
-            <p className="text-xl text-gray-700 mb-12">
-              Rejoignez le programme bêta et découvrez ARKA en avant-première
+            
+            <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
+              Rejoignez le programme bêta et découvrez ARKA en avant-première.<br />
+              Accès anticipé + support dédié + tarification préférentielle.
             </p>
-            <Link
-              to="/beta"
-              className="inline-flex items-center gap-2 px-10 py-5 bg-[#cb0f44] text-white text-lg font-medium rounded hover:bg-[#a00c37] hover:scale-105 transition-all hover:shadow-xl hover:shadow-[#cb0f44]/30"
-            >
-              Demander un accès bêta
-              <ArrowRight size={24} />
-            </Link>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/beta"
+                className="group px-10 py-5 bg-[#cb0f44] text-white text-lg font-medium rounded flex items-center justify-center gap-2 hover:bg-[#a00c37] hover:scale-105 transition-all hover:shadow-xl hover:shadow-[#cb0f44]/30"
+              >
+                Demander un accès bêta
+                <ArrowRight size={24} className="group-hover:translate-x-1 transition-transform" />
+              </Link>
+              
+              <Link
+                to="/contact"
+                className="px-10 py-5 bg-white/10 text-white text-lg font-medium border border-white/30 rounded backdrop-blur-sm flex items-center justify-center gap-2 hover:bg-white/20 hover:border-white/50 hover:scale-105 transition-all"
+              >
+                Nous contacter
+              </Link>
+            </div>
           </div>
         </div>
       </section>
