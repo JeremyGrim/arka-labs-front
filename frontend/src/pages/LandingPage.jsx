@@ -240,10 +240,10 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* CTA Section - WHITE */}
-      <section className="py-24 bg-white">
+      {/* CTA Section - ANTHRACITE BG + WHITE CONTAINER */}
+      <section className="py-24 bg-[#2a2a2a]">
         <div className="container mx-auto px-6 lg:px-20">
-          <div className="max-w-4xl mx-auto text-center animate-fadeIn">
+          <div className="max-w-4xl mx-auto text-center p-12 bg-white rounded-sm animate-fadeIn">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               Prêt à transformer votre façon de travailler ?
             </h2>
