@@ -230,9 +230,7 @@ Landing page complète en français pour ARKA - Orchestrateur d'Équipes IA.
 ## 🖼️ Assets
 
 ### Images
-- **Hero background:** Image 3D tech fournie par l'utilisateur
-  - URL: https://customer-assets.emergentagent.com/.../futuristic-3d-5120x3413-13107.jpg
-  - Opacité: 20%, overlay gradient noir
+- **Hero background:** Fond dégradé CSS interne (aucune ressource externe requise)
 
 ### Logo
 - SVG ARKA inline dans Header et Footer

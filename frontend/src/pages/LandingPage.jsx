@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import { features, benefits, experts, categories } from '../data/mock';
 
 const LandingPage = () => {
+  const heroImage = `${process.env.PUBLIC_URL}/asset/futuristic-3d-5120x3413-13107.jpg`;
   const featuredExperts = experts.filter(e => ['tech', 'marketing', 'commerce', 'rh'].includes(e.category)).slice(0, 8);
 
   const iconMap = {
@@ -25,10 +26,12 @@ const LandingPage = () => {
       <section className="relative min-h-screen flex items-center overflow-hidden pt-20 bg-gradient-to-br from-gray-900 via-[#1a1a1a] to-black">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://customer-assets.emergentagent.com/job_05361509-02f2-4a4e-9f01-a81e730fa397/artifacts/2z5gyy3v_futuristic-3d-5120x3413-13107.jpg"
-            alt="Tech Background"
+            src={heroImage}
+            alt="Tech background abstract"
             className="w-full h-full object-cover opacity-25"
+            loading="lazy"
           />
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#cb0f44]/30 via-transparent to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/75 to-black/80" />
         </div>
 
@@ -311,10 +314,12 @@ const LandingPage = () => {
       <section className="relative py-32 bg-gradient-to-br from-gray-900 via-[#1a1a1a] to-black overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://customer-assets.emergentagent.com/job_05361509-02f2-4a4e-9f01-a81e730fa397/artifacts/2z5gyy3v_futuristic-3d-5120x3413-13107.jpg"
-            alt="Tech Background"
+            src={heroImage}
+            alt="Tech background abstract"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#cb0f44]/25 via-transparent to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-black/90" />
         </div>
         
