@@ -28,7 +28,7 @@ const LandingPage = () => {
           <img
             src={heroImage}
             alt="Tech background abstract"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover "
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-[#cb0f44]/30 via-transparent to-transparent" />
