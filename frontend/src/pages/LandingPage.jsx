@@ -42,12 +42,12 @@ const LandingPage = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
-              Transformer des LLMs en
-              <span className="block text-[#cb0f44]"> équipes coordonnées</span>
+              Transformez des LLMs en
+              <span className="block text-[#cb0f44]"> équipe coordonnée</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl leading-relaxed">
-              ARKA coordonne 24 agents spécialisés pour transformer vos projets en résultats mesurables. Une architecture locale par défaut, une gouvernance explicite et une traçabilité complète.
+              38 agents IA spécialisés qui travaillent ensemble pour livrer des résultats traçables. Architecture locale, gouvernance explicite, zéro improvisation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -68,12 +68,12 @@ const LandingPage = () => {
 
             <div className="mt-16 grid grid-cols-3 gap-8">
               <div className="animate-slideIn" style={{animationDelay: '0.2s'}}>
-                <div className="text-4xl font-bold text-[#cb0f44] mb-2">24</div>
+                <div className="text-4xl font-bold text-[#cb0f44] mb-2">38</div>
                 <div className="text-gray-300 text-sm">Agents experts</div>
               </div>
               <div className="animate-slideIn" style={{animationDelay: '0.4s'}}>
                 <div className="text-4xl font-bold text-[#cb0f44] mb-2">16</div>
-                <div className="text-gray-300 text-sm">Parcours métiers prêts à l'emploi</div>
+                <div className="text-gray-300 text-sm">Workflows métiers</div>
               </div>
               <div className="animate-slideIn" style={{animationDelay: '0.6s'}}>
                 <div className="text-4xl font-bold text-[#cb0f44] mb-2">98%</div>
@@ -106,19 +106,31 @@ const LandingPage = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Un seul LLM + 1000 lignes de prompt = dérive créative et hallucinations</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Un seul LLM dérive et hallucine</p>
+                    <p className="text-gray-700">Même avec un prompt parfait, un agent seul perd le fil sur des projets complexes.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Aucun audit possible, aucune coordination d'équipe</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Aucune coordination entre agents</p>
+                    <p className="text-gray-700">Chaque LLM travaille en silo, ignore les décisions des autres, refait le même travail.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Confiance impossible : sans règles ni traces, rien ne se capitalise</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Impossible à auditer</p>
+                    <p className="text-gray-700">Les livrables restent dans le chat, dispersés. Aucune trace, aucune capitalisation.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Outils éparpillés : documents et consignes restent isolés</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Consignes dispersées</p>
+                    <p className="text-gray-700">Les règles sont dans des prompts fragmentés. Aucune source unique. Dérive garantie.</p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -127,23 +139,35 @@ const LandingPage = () => {
               <div className="inline-block mb-6 px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-600 text-xs font-medium rounded">
                 LA SOLUTION
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">ARKA : Constitution + Équipe d'agents</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">ARKA : Une équipe gouvernée qui livre avec méthode</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Une équipe d'agents orchestrée avec des règles claires et des jalons de validation</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">38 experts spécialisés qui communiquent entre eux</p>
+                    <p className="text-gray-700">Les agents se coordonnent directement, prennent des décisions collectives, se valident mutuellement.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Traçabilité complète : journal unifié, dossiers de preuves, décisions documentées</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Traçabilité complète automatique</p>
+                    <p className="text-gray-700">Chaque décision génère son dossier de preuves. Mission trackers, evidence packs, audit instantané.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Architecture locale en premier : vos données restent chez vous, souveraineté garantie</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Architecture locale</p>
+                    <p className="text-gray-700">Vos données restent chez vous. Fonctionnement hors ligne. Souveraineté garantie.</p>
+                  </div>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-2 transition-transform">
                   <div className="w-2 h-2 bg-emerald-500 rounded-full mt-2 flex-shrink-0 group-hover:scale-150 transition-transform" />
-                  <p className="text-gray-700">Core Guardian : optimisation nocturne de l'architecture et alertes proactives</p>
+                  <div>
+                    <p className="text-gray-900 font-semibold">Supervision autonome</p>
+                    <p className="text-gray-700">Une équipe Guardian audite régulièrement : processus, mémoire, anomalies. Rapports automatiques.</p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -157,7 +181,7 @@ const LandingPage = () => {
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Fonctionnalités clés</h2>
             <p className="text-xl text-gray-300">
-              ARKA réinvente l'orchestration d'équipes IA avec des briques prêtes pour le terrain.
+              ARKA réinvente l'orchestration d'équipes IA avec des mécanismes conçus pour la production réelle.
             </p>
           </div>
 
@@ -206,9 +230,9 @@ const LandingPage = () => {
                 <div className="w-20 h-20 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-4xl font-bold text-[#cb0f44]">1</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Constitution as Code</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Cadre de gouvernance</h3>
                 <p className="text-gray-600">
-                  Des règles versionnées qui gouvernent chaque agent. Une seule source de vérité, zéro dérive.
+                  Des règles versionnées qui guident chaque agent. Une source unique de vérité, zéro dérive.
                 </p>
               </div>
 
@@ -216,9 +240,9 @@ const LandingPage = () => {
                 <div className="w-20 h-20 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-4xl font-bold text-[#cb0f44]">2</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Orchestration PMO</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Workflows structurés</h3>
                 <p className="text-gray-600">
-                  Le PMO coordonne jusqu'à 8 agents simultanément selon vos besoins métier.
+                  Les agents communiquent selon 16 workflows métier : Audit, Delivery, Ops, Doc, Marketing, RH.
                 </p>
               </div>
 
@@ -228,7 +252,7 @@ const LandingPage = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">Traçabilité intégrale</h3>
                 <p className="text-gray-600">
-                  Chaque décision produit un dossier de preuves : traçabilité totale et audits simplifiés.
+                  Chaque décision génère automatiquement son dossier de preuves. Audit instantané.
                 </p>
               </div>
             </div>
@@ -238,7 +262,7 @@ const LandingPage = () => {
                 « Pas d'improvisation. Pas d'IA hors de contrôle. »
               </p>
               <p className="text-gray-700 text-lg">
-                ARKA impose une discipline collective aux LLMs grâce à des jalons de validation, des rôles explicites et une architecture qui maintient l'ordre — même quand vous dormez, grâce au Core Guardian.
+                ARKA impose une discipline collective aux LLMs : rôles explicites, jalons de validation, supervision autonome.
               </p>
             </div>
           </div>
@@ -249,9 +273,9 @@ const LandingPage = () => {
       <section className="py-24 bg-[#1a1a1a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">24 Experts à votre service</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">38 Experts à votre service</h2>
             <p className="text-xl text-gray-300">
-              Des spécialistes prêts à collaborer sur tous vos projets
+              Des spécialistes organisés pour collaborer efficacement sur tous vos projets
             </p>
           </div>
 
@@ -335,7 +359,7 @@ const LandingPage = () => {
             
             <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
               Rejoignez le programme bêta et découvrez ARKA en avant-première.<br />
-              Accès anticipé, support dédié et tarifs préférentiels.
+              Accès anticipé, support dédié et influence sur la roadmap produit.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

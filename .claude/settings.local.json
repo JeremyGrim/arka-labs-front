@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/grimo/workspace/arka-labs-v1.1/.docs-projet/product/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

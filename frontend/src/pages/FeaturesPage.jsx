@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 const FeaturesPage = () => {
   const workflows = [
     {
-      category: "AUDIT • 6 parcours",
+      category: "AUDIT • 6 workflows",
       items: [
         { name: "AUDIT:FILES", desc: "Analyse des fichiers → synthèse des constats → validation" },
         { name: "AUDIT:RGPD", desc: "Évaluation RGPD / DPA complète et plan d'action" },
@@ -17,7 +17,7 @@ const FeaturesPage = () => {
       ],
     },
     {
-      category: "DELIVERY • 3 parcours",
+      category: "DELIVERY • 3 workflows",
       items: [
         { name: "DELIVERY:FEATURE", desc: "Du besoin à la fonctionnalité : cadrage → épics → US → validation" },
         { name: "DELIVERY:EPIC", desc: "Cadrage d'epic → découpage → préparation backlog" },
@@ -25,7 +25,7 @@ const FeaturesPage = () => {
       ],
     },
     {
-      category: "OPS • 3 parcours",
+      category: "OPS • 3 workflows",
       items: [
         { name: "OPS:BUGFIX", desc: "Qualification → correction → tests → validation → notes de version" },
         { name: "OPS:SECURITY", desc: "Gestion d'incident sécurité → remédiation → vérification" },
@@ -33,7 +33,7 @@ const FeaturesPage = () => {
       ],
     },
     {
-      category: "DOC / MARKETING / RH • 4 parcours",
+      category: "DOC / MARKETING / RH • 4 workflows",
       items: [
         { name: "DOC:ADR", desc: "Rédaction d'Architecture Decision Record → revue → publication" },
         { name: "DOC:CONTENT", desc: "Brief → production éditoriale → relecture → diffusion" },
@@ -46,68 +46,68 @@ const FeaturesPage = () => {
   const coreFeatures = [
     {
       icon: Network,
-      title: "Orchestration multi-niveaux",
-      description: "Inspiré de SAFe, ARKA structure vos agents IA par programmes et plateaux. Le PMO pilote jusqu'à huit agents par équipe et deux missions actives sans perdre le fil.",
+      title: "Architecture P2P : Les agents communiquent entre eux",
+      description: "Les agents ne passent pas par un orchestrateur central. Ils communiquent directement, se coordonnent et prennent des décisions collectives selon des workflows structurés.",
       benefits: [
-        "Jusqu'à 8 agents par équipe",
-        "Enchaînement fluide des workflows",
-        "Cadence adaptée à la charge réelle",
-        "Coordination inter-plateaux simplifiée",
+        "Communication directe (pas de bottleneck)",
+        "Coordination intelligente",
+        "Décisions collectives documentées",
+        "Handoffs fluides",
       ],
     },
     {
       icon: Shield,
-      title: "Core Guardian",
-      description: "Un gardien autonome passe chaque nuit pour compacter, optimiser et archiver les échanges obsolètes. Les mémoires de contexte restent fraîches et les dérives sont neutralisées.",
+      title: "Supervision autonome",
+      description: "Une équipe Guardian audite régulièrement : respect des processus, qualité des livrables, détection d'anomalies. Optimisation automatique de la mémoire, archivage intelligent.",
       benefits: [
-        "Nettoyage nocturne automatique",
-        "Mémoires de contexte toujours à jour",
-        "Détection des dérives architecturales",
-        "Rapport d'optimisation quotidien",
+        "Audit automatique des processus",
+        "Optimisation continue de la mémoire",
+        "Détection proactive des dérives",
+        "Rapports quotidiens",
       ],
     },
     {
       icon: FileText,
-      title: "Constitution as Code",
-      description: "Les règles ne sont plus dupliquées dans des prompts : elles vivent dans une constitution versionnée. Un changement s'applique instantanément à tous les agents concernés.",
+      title: "Cadre de gouvernance versionnée",
+      description: "Les règles ne sont plus dispersées dans des prompts. Elles sont centralisées, versionnées, et consultables à la demande par tous les agents. Un changement s'applique instantanément partout.",
       benefits: [
         "Source de vérité unique",
         "Aucune dérive de consigne",
-        "Audit possible via l'historique Git",
-        "22 briques • 96 actions pilotables",
+        "Évolution sans casser l'existant",
+        "Règles toujours à jour",
       ],
     },
     {
       icon: TrendingUp,
       title: "Traçabilité probante",
-      description: "Chaque action produit un dossier de preuves complet : messages, mémoires, jetons, latences, jalons et artefacts. Idéal pour SOC2, ISO27001 ou la conformité RGPD.",
+      description: "Chaque action génère automatiquement son dossier de preuves : décisions, justifications, artefacts, validations. Idéal pour audits SOC2, ISO27001, RGPD.",
       benefits: [
-        "Preuves générées à chaque étape",
+        "Dossiers de preuves automatiques",
         "Export JSON, CSV ou PDF",
-        "Chaîne de responsabilité juridique",
+        "Chaîne de responsabilité documentée",
         "Rejeu de scénarios possible",
       ],
     },
     {
       icon: Zap,
       title: "Indépendance fournisseurs",
-      description: "Basculez entre GPT-4, Claude ou Gemini en une ligne. Pas de verrou propriétaire, résilience via fallback automatique et arbitrage de coût intelligent.",
+      description: "Basculez entre OpenAI, Anthropic, Google ou Mistral en une configuration. Relais automatique en cas d'échec.",
       benefits: [
-        "Compatibilité GPT, Claude, Gemini",
-        "Relais automatique en cas d'échec",
-        "Optimisation dynamique des coûts",
-        "Support des modèles open source",
+        "Multi-providers natif",
+        "Relais automatique",
+        "Optimisation des coûts",
+        "Pas de vendor lock-in",
       ],
     },
     {
       icon: Database,
-      title: "Architecture locale par défaut",
-      description: "Les données de travail restent chez vous : machine ou réseau interne. L'outil fonctionne hors ligne et n'exfiltre rien par défaut.",
+      title: "Architecture locale",
+      description: "Vos données restent chez vous. Fonctionne hors ligne. Aucune exfiltration par défaut.",
       benefits: [
-        "Données stockées en local",
-        "Mode hors ligne opérationnel",
+        "Données en local",
+        "Mode hors ligne",
         "Souveraineté garantie",
-        "Sauvegardes par simples fichiers",
+        "Sauvegardes simples",
       ],
     },
   ];
@@ -154,7 +154,7 @@ const FeaturesPage = () => {
             Fonctionnalités <span className="text-[#cb0f44]">ARKA</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-3xl">
-            Découvrez toute la puissance d'ARKA : orchestration intelligente, traçabilité complète, et workflows métier prêts à l'emploi.
+            Découvrez toute la puissance d'ARKA : orchestration intelligente, traçabilité complète, et workflows métier structurés.
           </p>
         </div>
       </section>
@@ -192,9 +192,9 @@ const FeaturesPage = () => {
       <section className="py-24 bg-[#0a0a0a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="max-w-3xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">16 parcours métiers prêts à l'emploi</h2>
+            <h2 className="text-3xl font-bold mb-4">16 workflows métiers structurés</h2>
             <p className="text-gray-400">
-              Des chaînes complètes pour l'audit, la delivery, les opérations, la documentation, le marketing et les équipes RH.
+              Des parcours complets pour l'audit, la delivery, les opérations, la documentation, le marketing et les équipes RH.
             </p>
           </div>
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import { Mail, Globe, Github, Send } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -58,53 +58,38 @@ const ContactPage = () => {
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-[#cb0f44]/10 flex items-center justify-center flex-shrink-0">
-                      <Mail className="text-[#cb0f44]" size={20} />
+                      <Globe className="text-[#cb0f44]" size={20} />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-500 mb-1">Email</div>
-                      <a href="mailto:contact@arka.ai" className="text-white hover:text-[#cb0f44] transition-colors">
-                        contact@arka.ai
+                      <div className="text-sm text-gray-500 mb-1">Site Web</div>
+                      <a href="https://arkalabs.app" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#cb0f44] transition-colors">
+                        arkalabs.app
                       </a>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-[#cb0f44]/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="text-[#cb0f44]" size={20} />
+                      <Github className="text-[#cb0f44]" size={20} />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-500 mb-1">Téléphone</div>
-                      <a href="tel:+33123456789" className="text-white hover:text-[#cb0f44] transition-colors">
-                        +33 1 23 45 67 89
+                      <div className="text-sm text-gray-500 mb-1">GitHub</div>
+                      <a href="https://github.com/arkalabs/arka-os" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#cb0f44] transition-colors">
+                        github.com/arkalabs/arka-os
                       </a>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-[#cb0f44]/10 flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-[#cb0f44]" size={20} />
+                      <Globe className="text-[#cb0f44]" size={20} />
                     </div>
                     <div>
-                      <div className="text-sm text-gray-500 mb-1">Adresse</div>
-                      <p className="text-white">
-                        123 Avenue des Champs-Élysées<br />
-                        75008 Paris, France
-                      </p>
+                      <div className="text-sm text-gray-500 mb-1">Documentation</div>
+                      <a href="https://docs.arkalabs.app" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#cb0f44] transition-colors">
+                        docs.arkalabs.app
+                      </a>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-6 bg-[#0a0a0a] border border-white/10">
-                <h3 className="font-bold mb-4">Horaires</h3>
-                <div className="space-y-2 text-sm text-gray-400">
-                  <div className="flex justify-between">
-                    <span>Lundi - Vendredi</span>
-                    <span className="text-white">9h - 18h</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Samedi - Dimanche</span>
-                    <span className="text-gray-500">Fermé</span>
                   </div>
                 </div>
               </div>
