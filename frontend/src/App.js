@@ -20,6 +20,7 @@ function App() {
           <Route path="/beta" element={<BetaPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/histoire" element={<HistoryPage />} />
+          <Route path="/presentation" element={<PresentationPage />} />
         </Routes>
       </BrowserRouter>
     </div>
