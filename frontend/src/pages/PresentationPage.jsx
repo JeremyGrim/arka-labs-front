@@ -257,17 +257,17 @@ const PresentationPage = () => {
       theme: 'light',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-12 text-gray-900">Une équipe complète à votre service</h2>
+          <h2 className="text-6xl font-bold mb-12 text-gray-900 animate-fadeIn">Une équipe complète à votre service</h2>
           <div className="space-y-8">
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all animate-slideIn" style={{animationDelay: '0.1s'}}>
               <h3 className="text-3xl font-bold mb-4 text-[#cb0f44]">GOUVERNANCE & ORCHESTRATION</h3>
               <p className="text-gray-700 text-lg">AGP • PMO • Business Owner • Leads métiers (Tech, Data, Marketing, Ops, RH, Conformité...)</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all animate-slideIn" style={{animationDelay: '0.3s'}}>
               <h3 className="text-3xl font-bold mb-4 text-[#cb0f44]">PRODUCTION & EXPERTISE</h3>
               <p className="text-gray-700 text-lg">Développement (Lead Dev, DevOps, QA, Architecte) • Sécurité & Conformité • Marketing & Communication • Data & IA • Support & Documentation</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all animate-slideIn" style={{animationDelay: '0.5s'}}>
               <h3 className="text-3xl font-bold mb-4 text-[#cb0f44]">SUPERVISION</h3>
               <p className="text-gray-700 text-lg">Archiviste (traçabilité, mémoire) • Scribe (documentation, evidence)</p>
             </div>
