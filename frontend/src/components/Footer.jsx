@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
-  const logoFull = `${process.env.PUBLIC_URL}/asset/arka-logo-blanc.svg`;
+  const logoFull = `${process.env.PUBLIC_URL}/asset/Arka-labs-logo-white.svg`;
   return (
     <footer className="bg-[#0a0a0a] border-t border-white/10">
       <div className="container mx-auto px-6 lg:px-20 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="col-span-1">
-            <div className="w-32 h-10 mb-6">
+            <div className="h-10 mb-6">
               <img
                 src={logoFull}
                 alt="Arka Labs logo"
-                className="w-full h-full object-contain"
+                className="h-full w-auto object-contain"
                 loading="lazy"
               />
             </div>

@@ -389,7 +389,7 @@ export const features = [
     id: 1,
     icon: "Network",
     title: "Architecture P2P",
-    description: "38 agents spécialisés qui communiquent directement entre eux. Coordination intelligente, zéro bottleneck."
+    description: "37 agents spécialisés qui communiquent directement entre eux. Coordination intelligente, zéro bottleneck."
   },
   {
     id: 2,
@@ -432,7 +432,7 @@ export const benefits = [
   },
   {
     id: 2,
-    stat: "38",
+    stat: "37",
     label: "Agents experts",
     description: "Organisés en équipe pour collaborer efficacement"
   },

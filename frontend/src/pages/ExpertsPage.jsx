@@ -23,7 +23,7 @@ const ExpertsPage = () => {
       <section className="pt-32 pb-16 bg-gradient-to-b from-[#0a0a0a] to-black">
         <div className="container mx-auto px-6 lg:px-20">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            38 experts <span className="text-[#cb0f44]">spécialisés</span> organisés en équipe
+            37 experts <span className="text-[#cb0f44]">spécialisés</span> organisés en équipe
           </h1>
           <p className="text-xl text-gray-400 max-w-3xl">
             Découvrez notre équipe d'agents IA, chacun expert dans son domaine, organisés pour collaborer efficacement sur vos projets les plus ambitieux.

@@ -34,7 +34,7 @@ const HistoryPage = () => {
       period: "Juillet-Août 2025",
       icon: Rocket,
       title: "Du chaos à la gouvernance",
-      description: "La solution : un cadre de gouvernance où les règles sont versionnées et les workflows explicites. Plus de prompts géants qui surchargent les agents. Une constitution unique que tous peuvent consulter à la demande. 38 agents organisés, 16 workflows structurés.",
+      description: "La solution : un cadre de gouvernance où les règles sont versionnées et les workflows explicites. Plus de prompts géants qui surchargent les agents. Une constitution unique que tous peuvent consulter à la demande. 37 agents organisés, 16 workflows structurés.",
       highlight: "ARKA devient un produit, pas juste une méthode personnelle."
     },
     {
@@ -49,7 +49,7 @@ const HistoryPage = () => {
 
   const principles = [
     {
-      title: "38 agents spécialisés organisés",
+      title: "37 agents spécialisés organisés",
       desc: "Gouvernance, orchestration, production, supervision. Chaque agent a son expertise, ses responsabilités, ses workflows."
     },
     {

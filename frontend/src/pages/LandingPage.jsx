@@ -43,11 +43,11 @@ const LandingPage = () => {
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
               Transformez des LLMs en
-              <span className="block text-[#cb0f44]"> équipe coordonnée</span>
+              <span className="block text-[#cb0f44]"> équipes coordonnées</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl leading-relaxed">
-              38 agents IA spécialisés qui travaillent ensemble pour livrer des résultats traçables. Architecture locale, gouvernance explicite, zéro improvisation.
+              37 agents IA spécialisés qui travaillent ensemble pour livrer des résultats traçables. Architecture locale, gouvernance explicite, zéro improvisation.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -68,7 +68,7 @@ const LandingPage = () => {
 
             <div className="mt-16 grid grid-cols-3 gap-8">
               <div className="animate-slideIn" style={{animationDelay: '0.2s'}}>
-                <div className="text-4xl font-bold text-[#cb0f44] mb-2">38</div>
+                <div className="text-4xl font-bold text-[#cb0f44] mb-2">37</div>
                 <div className="text-gray-300 text-sm">Agents experts</div>
               </div>
               <div className="animate-slideIn" style={{animationDelay: '0.4s'}}>
@@ -273,7 +273,7 @@ const LandingPage = () => {
       <section className="py-24 bg-[#1a1a1a]">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">38 Experts à votre service</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">37 Experts à votre service</h2>
             <p className="text-xl text-gray-300">
               Des spécialistes organisés pour collaborer efficacement sur tous vos projets
             </p>
