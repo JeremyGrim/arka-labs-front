@@ -435,15 +435,15 @@ const PresentationPage = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/80 to-black/90" />
           </div>
-          <div className="relative z-10">
-            <div className="inline-block mb-6 px-4 py-2 bg-[#cb0f44]/20 border border-[#cb0f44]/40 rounded backdrop-blur-sm animate-fadeIn">
-              <span className="text-[#cb0f44] text-lg font-medium">Programme Bêta Ouvert</span>
+          <div className="relative z-10 px-8 max-w-6xl mx-auto">
+            <div className="inline-block mb-4 px-4 py-2 bg-[#cb0f44]/20 border border-[#cb0f44]/40 rounded backdrop-blur-sm animate-fadeIn">
+              <span className="text-[#cb0f44] text-sm font-medium">Programme Bêta Ouvert</span>
             </div>
-            <h2 className="text-7xl font-bold mb-8 text-white animate-scaleIn" style={{animationDelay: '0.2s'}}>Rejoignez ARKA</h2>
-            <div className="grid grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 text-white animate-scaleIn" style={{animationDelay: '0.2s'}}>Rejoignez ARKA</h2>
+            <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="text-left animate-slideIn" style={{animationDelay: '0.3s'}}>
-                <h3 className="text-2xl font-bold mb-4 text-emerald-400">Bénéfices bêta</h3>
-                <ul className="space-y-2 text-gray-200">
+                <h3 className="text-xl font-bold mb-3 text-emerald-400">Bénéfices bêta</h3>
+                <ul className="space-y-1.5 text-gray-200 text-sm">
                   <li className="hover:translate-x-2 transition-transform">✓ Accès anticipé avant lancement</li>
                   <li className="hover:translate-x-2 transition-transform">✓ Support dédié équipe ARKA</li>
                   <li className="hover:translate-x-2 transition-transform">✓ Influence directe roadmap</li>
@@ -452,8 +452,8 @@ const PresentationPage = () => {
                 </ul>
               </div>
               <div className="text-left animate-slideInRight" style={{animationDelay: '0.4s'}}>
-                <h3 className="text-2xl font-bold mb-4 text-[#cb0f44]">Statistiques</h3>
-                <ul className="space-y-2 text-gray-200 text-xl">
+                <h3 className="text-xl font-bold mb-3 text-[#cb0f44]">Statistiques</h3>
+                <ul className="space-y-1.5 text-gray-200 text-base">
                   <li className="hover:translate-x-2 transition-transform"><span className="font-bold text-white">38</span> Agents experts</li>
                   <li className="hover:translate-x-2 transition-transform"><span className="font-bold text-white">16</span> Workflows métiers</li>
                   <li className="hover:translate-x-2 transition-transform"><span className="font-bold text-white">98%</span> Gain de temps</li>
@@ -463,11 +463,11 @@ const PresentationPage = () => {
             </div>
             <a
               href="/beta"
-              className="inline-block px-12 py-6 bg-[#cb0f44] text-white text-2xl font-bold rounded hover:bg-[#a00c37] transition-all hover:scale-110 hover:shadow-2xl hover:shadow-[#cb0f44]/50 animate-pulse-glow animate-fadeIn" style={{animationDelay: '0.6s'}}
+              className="inline-block px-10 py-4 bg-[#cb0f44] text-white text-xl font-bold rounded hover:bg-[#a00c37] transition-all hover:scale-110 hover:shadow-2xl hover:shadow-[#cb0f44]/50 animate-pulse-glow animate-fadeIn" style={{animationDelay: '0.6s'}}
             >
               Demander un accès bêta
             </a>
-            <p className="mt-8 text-2xl text-gray-300 font-bold animate-fadeIn" style={{animationDelay: '0.8s'}}>« Pas d'impro. Pas d'IA hors de contrôle. »</p>
+            <p className="mt-6 text-xl text-gray-300 font-bold animate-fadeIn" style={{animationDelay: '0.8s'}}>« Pas d'impro. Pas d'IA hors de contrôle. »</p>
           </div>
         </div>
       )
