@@ -7,6 +7,7 @@ import FeaturesPage from './pages/FeaturesPage';
 import BetaPage from './pages/BetaPage';
 import ContactPage from './pages/ContactPage';
 import HistoryPage from './pages/HistoryPage';
+import PresentationPage from './pages/PresentationPage';
 
 function App() {
   return (
