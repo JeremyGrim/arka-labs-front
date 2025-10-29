@@ -23,6 +23,8 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/histoire" element={<HistoryPage />} />
           <Route path="/presentation" element={<PresentationPage />} />
+          <Route path="/documentation" element={<DocumentationPage />} />
+          <Route path="/legal" element={<LegalPage />} />
         </Routes>
       </BrowserRouter>
     </div>
