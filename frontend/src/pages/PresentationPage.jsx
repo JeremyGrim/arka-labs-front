@@ -39,42 +39,42 @@ const PresentationPage = () => {
       theme: 'light',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-16 text-gray-900">Les LLMs seuls ne suffisent pas</h2>
+          <h2 className="text-6xl font-bold mb-16 text-gray-900 animate-fadeIn">Les LLMs seuls ne suffisent pas</h2>
           <div className="grid grid-cols-2 gap-8">
-            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl transition-all group">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all group animate-slideIn" style={{animationDelay: '0.1s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <AlertCircle className="text-red-500" size={32} />
+                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-300">
+                  <AlertCircle className="text-red-500 group-hover:animate-pulse" size={32} />
                 </div>
                 <div className="text-3xl font-bold text-red-500">1</div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Dérive et hallucination</h3>
               <p className="text-gray-700">Un seul LLM perd le fil sur des projets complexes. Mock APIs, data fictive, illusion de résultat.</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl transition-all group">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all group animate-slideInRight" style={{animationDelay: '0.2s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Users className="text-red-500" size={32} />
+                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-300">
+                  <Users className="text-red-500 group-hover:animate-pulse" size={32} />
                 </div>
                 <div className="text-3xl font-bold text-red-500">2</div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Zéro coordination</h3>
               <p className="text-gray-700">Chaque agent travaille en silo. Ignore les décisions des autres. Refait le même travail.</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl transition-all group">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all group animate-slideIn" style={{animationDelay: '0.3s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Target className="text-red-500" size={32} />
+                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-300">
+                  <Target className="text-red-500 group-hover:animate-pulse" size={32} />
                 </div>
                 <div className="text-3xl font-bold text-red-500">3</div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Impossible à auditer</h3>
               <p className="text-gray-700">Livrables dispersés dans le chat. Aucune trace, aucune reproductibilité.</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl transition-all group">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 transition-all group animate-slideInRight" style={{animationDelay: '0.4s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <GitBranch className="text-red-500" size={32} />
+                <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-300">
+                  <GitBranch className="text-red-500 group-hover:animate-pulse" size={32} />
                 </div>
                 <div className="text-3xl font-bold text-red-500">4</div>
               </div>
