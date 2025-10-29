@@ -11,12 +11,12 @@ const PresentationPage = () => {
       theme: 'dark',
       content: (
         <div className="flex flex-col items-center justify-center h-full text-center relative">
-          {/* Geometric decoration */}
-          <div className="absolute top-20 left-20 w-32 h-32 border-2 border-[#cb0f44]/20 rounded-sm rotate-12"></div>
-          <div className="absolute bottom-20 right-20 w-40 h-40 border-2 border-emerald-500/20 rounded-full"></div>
-          <div className="absolute top-1/3 right-1/4 w-24 h-24 bg-[#cb0f44]/5 rounded-sm -rotate-6"></div>
+          {/* Geometric decoration - animées */}
+          <div className="absolute top-20 left-20 w-32 h-32 border-2 border-[#cb0f44]/20 rounded-sm animate-rotate"></div>
+          <div className="absolute bottom-20 right-20 w-40 h-40 border-2 border-emerald-500/20 rounded-full animate-pulse-glow"></div>
+          <div className="absolute top-1/3 right-1/4 w-24 h-24 bg-[#cb0f44]/5 rounded-sm animate-float"></div>
           
-          <div className="mb-16 animate-fadeIn">
+          <div className="mb-16 animate-scaleIn">
             <svg viewBox="0 0 699 222" className="w-80 h-auto mx-auto">
               <path fill="#FFFFFF" d="M216.51,100.12c4.58-8.55,10.88-15.19,18.89-19.9c8.01-4.71,16.94-7.07,26.77-7.07c9.7,0,18.11,2.09,25.25,6.26c7.14,4.18,12.46,9.43,15.96,15.76v-20.2h18.59v110.71h-18.59v-20.61c-3.64,6.47-9.06,11.82-16.26,16.06c-7.21,4.24-15.59,6.36-25.15,6.36c-9.83,0-18.72-2.42-26.67-7.27c-7.95-4.85-14.21-11.65-18.79-20.41c-4.58-8.75-6.87-18.72-6.87-29.9C209.64,118.61,211.93,108.68,216.51,100.12z M298.33,108.31c-3.37-6.2-7.91-10.94-13.64-14.25c-5.73-3.3-12.02-4.95-18.89-4.95c-6.87,0-13.13,1.62-18.79,4.85c-5.66,3.24-10.17,7.95-13.54,14.14c-3.37,6.2-5.05,13.47-5.05,21.82c0,8.49,1.68,15.86,5.05,22.13c3.37,6.26,7.88,11.04,13.54,14.34c5.66,3.3,11.92,4.95,18.79,4.95c6.87,0,13.16-1.65,18.89-4.95c5.72-3.3,10.27-8.08,13.64-14.34c3.37-6.27,5.05-13.57,5.05-21.92S301.7,114.5,298.33,108.31z"/>
               <path fill="#FFFFFF" d="M389.14,77.3c5.59-3.16,12.22-4.75,19.9-4.75v23.84h-5.86c-9.03,0-15.86,2.29-20.51,6.87c-4.65,4.58-6.97,12.53-6.97,23.84v58.59h-23.03V74.36h23.03v16.16C379.07,84.87,383.55,80.46,389.14,77.3z"/>
