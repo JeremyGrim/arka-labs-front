@@ -313,31 +313,31 @@ const PresentationPage = () => {
       theme: 'light',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-12 text-gray-900">Des résultats concrets</h2>
+          <h2 className="text-6xl font-bold mb-12 text-gray-900 animate-fadeIn">Des résultats concrets</h2>
           <div className="grid grid-cols-2 gap-8">
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 hover:bg-gradient-to-br hover:from-gray-100 hover:to-emerald-50 transition-all animate-slideIn" style={{animationDelay: '0.1s'}}>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Audit RGPD</h3>
               <p className="text-gray-600 mb-2">Avant : <span className="line-through">160h • 8 000€</span></p>
               <p className="text-emerald-600 font-bold mb-4">Avec ARKA : 2h • 40€</p>
-              <p className="text-4xl font-bold text-[#cb0f44]">98% de temps économisé</p>
+              <p className="text-4xl font-bold text-[#cb0f44] hover:scale-110 transition-transform inline-block">98% de temps économisé</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 hover:bg-gradient-to-br hover:from-gray-100 hover:to-emerald-50 transition-all animate-slideInRight" style={{animationDelay: '0.2s'}}>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Livraison features</h3>
               <p className="text-gray-600 mb-2">Avant : <span className="line-through">3 semaines</span></p>
               <p className="text-emerald-600 font-bold mb-4">Avec ARKA : 1 semaine</p>
-              <p className="text-4xl font-bold text-[#cb0f44]">66% plus rapide</p>
+              <p className="text-4xl font-bold text-[#cb0f44] hover:scale-110 transition-transform inline-block">66% plus rapide</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 hover:bg-gradient-to-br hover:from-gray-100 hover:to-emerald-50 transition-all animate-slideIn" style={{animationDelay: '0.3s'}}>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Campagne marketing</h3>
               <p className="text-gray-600 mb-2">Avant : <span className="line-through">10 jours</span></p>
               <p className="text-emerald-600 font-bold mb-4">Avec ARKA : 3 jours</p>
-              <p className="text-4xl font-bold text-[#cb0f44]">70% de gain</p>
+              <p className="text-4xl font-bold text-[#cb0f44] hover:scale-110 transition-transform inline-block">70% de gain</p>
             </div>
-            <div className="p-8 bg-gray-100 rounded-sm">
+            <div className="p-8 bg-gray-100 rounded-sm hover:shadow-xl hover:scale-105 hover:bg-gradient-to-br hover:from-gray-100 hover:to-emerald-50 transition-all animate-slideInRight" style={{animationDelay: '0.4s'}}>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Conformité</h3>
               <p className="text-gray-600 mb-2">Avant : <span className="line-through">Audits manuels</span></p>
               <p className="text-emerald-600 font-bold mb-4">Avec ARKA : Traçabilité totale</p>
-              <p className="text-4xl font-bold text-[#cb0f44]">SOC2/ISO auto</p>
+              <p className="text-4xl font-bold text-[#cb0f44] hover:scale-110 transition-transform inline-block">SOC2/ISO auto</p>
             </div>
           </div>
         </div>
