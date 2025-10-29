@@ -349,74 +349,74 @@ const PresentationPage = () => {
       theme: 'dark',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-12 text-white">Ce qui rend ARKA unique</h2>
+          <h2 className="text-6xl font-bold mb-12 text-white animate-fadeIn">Ce qui rend ARKA unique</h2>
           <div className="grid grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-sm">
+            <div className="p-6 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideUp" style={{animationDelay: '0.1s'}}>
               <h3 className="text-xl font-bold mb-4 text-gray-900">vs Multi-agents classiques</h3>
               <ul className="space-y-2 text-gray-700 text-sm">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Voie unique de production</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Constitution versionnée</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Architecture P2P</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Traçabilité automatique</span>
                 </li>
               </ul>
             </div>
-            <div className="p-6 bg-white rounded-sm">
+            <div className="p-6 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideUp" style={{animationDelay: '0.3s'}}>
               <h3 className="text-xl font-bold mb-4 text-gray-900">vs LangChain / CrewAI</h3>
               <ul className="space-y-2 text-gray-700 text-sm">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Pour PM/PO</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Gouvernance stricte</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Prêt production</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Multi-provider</span>
                 </li>
               </ul>
             </div>
-            <div className="p-6 bg-white rounded-sm">
+            <div className="p-6 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideUp" style={{animationDelay: '0.5s'}}>
               <h3 className="text-xl font-bold mb-4 text-gray-900">vs Claude / ChatGPT</h3>
               <ul className="space-y-2 text-gray-700 text-sm">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>38 experts spécialisés</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Communication P2P</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>16 workflows structurés</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-emerald-500">✓</span>
                   <span>Evidence-based</span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="mt-12 text-center">
-            <p className="text-3xl font-bold text-white">Constitution exécutable pour équipes IA gouvernées</p>
+          <div className="mt-12 text-center animate-fadeIn" style={{animationDelay: '0.7s'}}>
+            <p className="text-3xl font-bold text-white hover:scale-105 transition-transform inline-block">Constitution exécutable pour équipes IA gouvernées</p>
           </div>
         </div>
       )
