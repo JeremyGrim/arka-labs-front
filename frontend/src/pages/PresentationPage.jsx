@@ -215,32 +215,32 @@ const PresentationPage = () => {
       theme: 'dark',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-16 text-white">Les agents communiquent entre eux</h2>
+          <h2 className="text-6xl font-bold mb-16 text-white animate-fadeIn">Les agents communiquent entre eux</h2>
           <div className="grid grid-cols-2 gap-12 mb-12">
-            <div>
-              <div className="inline-block px-4 py-2 bg-red-500/20 border border-red-500/40 text-red-400 text-sm font-medium rounded mb-6">
+            <div className="animate-slideIn" style={{animationDelay: '0.1s'}}>
+              <div className="inline-block px-4 py-2 bg-red-500/20 border border-red-500/40 text-red-400 text-sm font-medium rounded mb-6 hover:bg-red-500/30 transition-all">
                 ❌ Systèmes classiques
               </div>
               <h3 className="text-3xl font-bold mb-6 text-white">Hub-and-spoke</h3>
-              <p className="text-gray-300 text-xl mb-4">Orchestrateur central dispatche</p>
-              <p className="text-gray-300 text-xl mb-4">↓</p>
-              <p className="text-gray-300 text-xl mb-4">Agents isolés</p>
-              <p className="text-gray-300 text-xl mb-4">↓</p>
-              <p className="text-red-400 text-xl font-bold">Bottleneck</p>
+              <p className="text-gray-300 text-xl mb-4 hover:translate-x-2 transition-transform">Orchestrateur central dispatche</p>
+              <p className="text-gray-300 text-xl mb-4 animate-float">↓</p>
+              <p className="text-gray-300 text-xl mb-4 hover:translate-x-2 transition-transform">Agents isolés</p>
+              <p className="text-gray-300 text-xl mb-4 animate-float" style={{animationDelay: '0.5s'}}>↓</p>
+              <p className="text-red-400 text-xl font-bold hover:scale-110 transition-transform">Bottleneck</p>
             </div>
-            <div>
-              <div className="inline-block px-4 py-2 bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-sm font-medium rounded mb-6">
+            <div className="animate-slideInRight" style={{animationDelay: '0.2s'}}>
+              <div className="inline-block px-4 py-2 bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 text-sm font-medium rounded mb-6 hover:bg-emerald-500/30 transition-all">
                 ✅ ARKA
               </div>
               <h3 className="text-3xl font-bold mb-6 text-white">Pair-à-pair</h3>
-              <p className="text-gray-300 text-xl mb-4">Agents communiquent directement</p>
-              <p className="text-gray-300 text-xl mb-4">↓</p>
-              <p className="text-gray-300 text-xl mb-4">Coordination intelligente</p>
-              <p className="text-gray-300 text-xl mb-4">↓</p>
-              <p className="text-emerald-400 text-xl font-bold">Zéro bottleneck</p>
+              <p className="text-gray-300 text-xl mb-4 hover:translate-x-2 transition-transform">Agents communiquent directement</p>
+              <p className="text-gray-300 text-xl mb-4 animate-float">↓</p>
+              <p className="text-gray-300 text-xl mb-4 hover:translate-x-2 transition-transform">Coordination intelligente</p>
+              <p className="text-gray-300 text-xl mb-4 animate-float" style={{animationDelay: '0.5s'}}>↓</p>
+              <p className="text-emerald-400 text-xl font-bold hover:scale-110 transition-transform">Zéro bottleneck</p>
             </div>
           </div>
-          <div className="bg-white/10 p-8 rounded-sm backdrop-blur-sm">
+          <div className="bg-white/10 p-8 rounded-sm backdrop-blur-sm animate-fadeIn hover:bg-white/15 transition-all" style={{animationDelay: '0.4s'}}>
             <p className="text-gray-300 text-lg font-mono">
               Compliance: "@Legal, confirme interprétation point 3 ?"<br />
               Legal: "Confirmé. @Compliance, vérifie effectif pour DPO."<br />
