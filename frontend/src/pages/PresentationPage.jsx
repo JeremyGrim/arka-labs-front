@@ -91,40 +91,40 @@ const PresentationPage = () => {
       theme: 'dark',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-16 text-white">Une équipe gouvernée qui livre avec méthode</h2>
+          <h2 className="text-6xl font-bold mb-16 text-white animate-fadeIn">Une équipe gouvernée qui livre avec méthode</h2>
           <div className="grid grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-sm hover:shadow-xl hover:shadow-emerald-500/20 transition-all group">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:shadow-emerald-500/30 hover:scale-105 transition-all group animate-slideIn" style={{animationDelay: '0.1s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Network className="text-emerald-500" size={32} />
+                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:bg-emerald-500/20 transition-all duration-300">
+                  <Network className="text-emerald-500 group-hover:animate-pulse" size={32} />
                 </div>
                 <div className="text-4xl font-bold text-emerald-500">38</div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Experts spécialisés</h3>
               <p className="text-gray-700">Agents qui communiquent directement, se coordonnent, se valident mutuellement.</p>
             </div>
-            <div className="p-8 bg-white rounded-sm hover:shadow-xl hover:shadow-emerald-500/20 transition-all group">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:shadow-emerald-500/30 hover:scale-105 transition-all group animate-slideInRight" style={{animationDelay: '0.2s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <CheckCircle className="text-emerald-500" size={32} />
+                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:bg-emerald-500/20 transition-all duration-300">
+                  <CheckCircle className="text-emerald-500 group-hover:animate-pulse" size={32} />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Traçabilité automatique</h3>
               <p className="text-gray-700">Chaque décision génère son dossier de preuves. Mission trackers, evidence packs.</p>
             </div>
-            <div className="p-8 bg-white rounded-sm hover:shadow-xl hover:shadow-emerald-500/20 transition-all group">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:shadow-emerald-500/30 hover:scale-105 transition-all group animate-slideIn" style={{animationDelay: '0.3s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Shield className="text-emerald-500" size={32} />
+                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:bg-emerald-500/20 transition-all duration-300">
+                  <Shield className="text-emerald-500 group-hover:animate-pulse" size={32} />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Architecture locale</h3>
               <p className="text-gray-700">Vos données restent chez vous. Fonctionnement hors ligne. Souveraineté garantie.</p>
             </div>
-            <div className="p-8 bg-white rounded-sm hover:shadow-xl hover:shadow-emerald-500/20 transition-all group">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:shadow-emerald-500/30 hover:scale-105 transition-all group animate-slideInRight" style={{animationDelay: '0.4s'}}>
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Zap className="text-emerald-500" size={32} />
+                <div className="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center group-hover:scale-125 group-hover:bg-emerald-500/20 transition-all duration-300">
+                  <Zap className="text-emerald-500 group-hover:animate-pulse" size={32} />
                 </div>
               </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Supervision autonome</h3>
