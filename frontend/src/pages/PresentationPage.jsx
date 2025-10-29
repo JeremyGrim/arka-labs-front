@@ -140,70 +140,70 @@ const PresentationPage = () => {
       theme: 'light',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-16 text-gray-900">De l'intention au livrable en 3 étapes</h2>
+          <h2 className="text-6xl font-bold mb-16 text-gray-900 animate-fadeIn">De l'intention au livrable en 3 étapes</h2>
           <div className="grid grid-cols-3 gap-8 mb-12">
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center animate-slideUp" style={{animationDelay: '0.1s'}}>
+              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6 hover:scale-110 hover:bg-[#cb0f44]/20 hover:rotate-12 transition-all duration-300">
                 <span className="text-5xl font-bold text-[#cb0f44]">1</span>
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">CADRAGE</h3>
               <ul className="text-left space-y-2 text-gray-700">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Vous décrivez le besoin</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>ARKA structure la mission</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Validation rapide</span>
                 </li>
               </ul>
             </div>
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center animate-slideUp" style={{animationDelay: '0.3s'}}>
+              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6 hover:scale-110 hover:bg-[#cb0f44]/20 hover:rotate-12 transition-all duration-300">
                 <span className="text-5xl font-bold text-[#cb0f44]">2</span>
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">EXÉCUTION</h3>
               <ul className="text-left space-y-2 text-gray-700">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>38 experts se coordonnent</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Workflows structurés (16)</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Communication P2P directe</span>
                 </li>
               </ul>
             </div>
-            <div className="text-center">
-              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center animate-slideUp" style={{animationDelay: '0.5s'}}>
+              <div className="w-24 h-24 bg-[#cb0f44]/10 rounded-full flex items-center justify-center mx-auto mb-6 hover:scale-110 hover:bg-[#cb0f44]/20 hover:rotate-12 transition-all duration-300">
                 <span className="text-5xl font-bold text-[#cb0f44]">3</span>
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">LIVRAISON</h3>
               <ul className="text-left space-y-2 text-gray-700">
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Evidence packs automatiques</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Gates de validation</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-2 hover:translate-x-2 transition-transform">
                   <span className="text-[#cb0f44]">→</span>
                   <span>Traçabilité complète</span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="text-center p-8 bg-gradient-to-r from-[#cb0f44]/10 to-emerald-500/10 rounded-sm border-l-4 border-[#cb0f44]">
+          <div className="text-center p-8 bg-gradient-to-r from-[#cb0f44]/10 to-emerald-500/10 rounded-sm border-l-4 border-[#cb0f44] animate-fadeIn hover:scale-105 transition-all" style={{animationDelay: '0.7s'}}>
             <p className="text-3xl font-bold text-gray-900">« Pas d'improvisation. Pas d'IA hors de contrôle. »</p>
           </div>
         </div>
