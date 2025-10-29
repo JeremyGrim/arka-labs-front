@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, AlertCircle, Users, CheckCircle, Zap, Network, Shield, GitBranch, TrendingUp, Target, Award } from 'lucide-react';
 
 const PresentationPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
