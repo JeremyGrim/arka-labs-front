@@ -281,26 +281,26 @@ const PresentationPage = () => {
       theme: 'dark',
       content: (
         <div className="h-full flex flex-col justify-center">
-          <h2 className="text-6xl font-bold mb-12 text-white">Des parcours structurés pour chaque besoin</h2>
+          <h2 className="text-6xl font-bold mb-12 text-white animate-fadeIn">Des parcours structurés pour chaque besoin</h2>
           <div className="grid grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-sm">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideIn" style={{animationDelay: '0.1s'}}>
               <h3 className="text-2xl font-bold mb-4 text-[#cb0f44]">AUDIT (6 workflows)</h3>
               <p className="text-gray-700">Files • RGPD • Compliance • Security • Feature • Accounting</p>
             </div>
-            <div className="p-8 bg-white rounded-sm">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideInRight" style={{animationDelay: '0.2s'}}>
               <h3 className="text-2xl font-bold mb-4 text-[#cb0f44]">DELIVERY (3 workflows)</h3>
               <p className="text-gray-700">Feature • Epic • User Story</p>
             </div>
-            <div className="p-8 bg-white rounded-sm">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideIn" style={{animationDelay: '0.3s'}}>
               <h3 className="text-2xl font-bold mb-4 text-[#cb0f44]">OPS (3 workflows)</h3>
               <p className="text-gray-700">Bugfix • Security Incident • Data Report</p>
             </div>
-            <div className="p-8 bg-white rounded-sm">
+            <div className="p-8 bg-white rounded-sm hover:shadow-2xl hover:scale-105 transition-all animate-slideInRight" style={{animationDelay: '0.4s'}}>
               <h3 className="text-2xl font-bold mb-4 text-[#cb0f44]">DOC / MKT / RH (4 workflows)</h3>
               <p className="text-gray-700">ADR • Content • Campaign • HR Change</p>
             </div>
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center animate-fadeIn" style={{animationDelay: '0.6s'}}>
             <p className="text-2xl text-gray-300">Chaque workflow impose <span className="text-emerald-400 font-bold">étapes + gates + validations</span></p>
             <p className="text-xl text-gray-400 mt-2">Zéro improvisation</p>
           </div>
