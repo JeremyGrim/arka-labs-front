@@ -8,6 +8,8 @@ import BetaPage from './pages/BetaPage';
 import ContactPage from './pages/ContactPage';
 import HistoryPage from './pages/HistoryPage';
 import PresentationPage from './pages/PresentationPage';
+import DocumentationPage from './pages/DocumentationPage';
+import LegalPage from './pages/LegalPage';
 
 function App() {
   return (
