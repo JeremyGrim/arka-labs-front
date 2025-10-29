@@ -27,9 +27,9 @@ const PresentationPage = () => {
               <path fill="#FFFFFF" d="M100.29,65.57L75.32,36.5H33.58c-5.7,0-8.69,6.77-4.85,10.98l43.05,47.29L100.29,65.57z"/>
             </svg>
           </div>
-          <p className="text-4xl text-gray-300 mb-4 animate-fadeIn" style={{animationDelay: '0.2s'}}>L'Orchestrateur d'Équipes IA Gouvernées</p>
-          <p className="text-2xl text-[#cb0f44] mb-12 animate-fadeIn" style={{animationDelay: '0.4s'}}>Transformez des LLMs en équipe coordonnée</p>
-          <p className="text-gray-400 animate-fadeIn" style={{animationDelay: '0.6s'}}>v1.1 Beta • Octobre 2025</p>
+          <p className="text-4xl text-gray-300 mb-4 animate-slideUp" style={{animationDelay: '0.3s'}}>L'Orchestrateur d'Équipes IA Gouvernées</p>
+          <p className="text-2xl text-[#cb0f44] mb-12 animate-slideUp" style={{animationDelay: '0.5s'}}>Transformez des LLMs en équipe coordonnée</p>
+          <p className="text-gray-400 animate-fadeIn" style={{animationDelay: '0.7s'}}>v1.1 Beta • Octobre 2025</p>
         </div>
       )
     },
